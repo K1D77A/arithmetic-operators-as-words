@@ -1,8 +1,6 @@
-# arithmetic-operators-as-words
+;;;; arithmetic-operators-as-words.lisp
 
-This provides 4 macros which are simply named versions of four of the 
-arithmetic comparisons listed here
-http://www.lispworks.com/documentation/HyperSpec/Body/f_eq_sle.htm
+(in-package #:arithmetic-operators-as-words)
 
 (defmacro greater-than (number &rest more-numbers)
   `(> ,number ,@more-numbers))
@@ -15,10 +13,3 @@ http://www.lispworks.com/documentation/HyperSpec/Body/f_eq_sle.htm
 
 (defmacro less-than-or-equal (number &rest more-numbers)
   `(<= ,number ,@more-numbers))
-
-
-## License
-
-MIT
-
-
