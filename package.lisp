@@ -5,5 +5,9 @@
   (:export #:greater-than
            #:less-than
            #:greater-than-or-equal
-           #:less-than-or-equal)
+           #:less-than-or-equal
+           #:divide
+           #:multiply
+           #:add
+           #:subtract)
   (:nicknames :aoaw))
